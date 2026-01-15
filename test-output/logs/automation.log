@@ -1,0 +1,169 @@
+2026-01-15 14:18:26.591 [main] INFO  listeners.TestListener - Test Suite Started: Login Tests
+2026-01-15 14:18:26.613 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:18:26.614 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:18:32.621 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:18:34.667 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:18:34.669 [main] INFO  listeners.TestListener - Test Started: testSuccessfulLogin
+2026-01-15 14:18:34.890 [main] INFO  pages.LoginPage - Entered text 'student' in element: [[ChromeDriver: chrome on windows (7ed5e91c2bcbba3b5fb7f72963854deb)] -> id: username]
+2026-01-15 14:18:34.891 [main] INFO  pages.LoginPage - Entered username: student
+2026-01-15 14:18:35.028 [main] INFO  pages.LoginPage - Entered text 'Password123' in element: [[ChromeDriver: chrome on windows (7ed5e91c2bcbba3b5fb7f72963854deb)] -> id: password]
+2026-01-15 14:18:35.028 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:18:41.946 [main] ERROR listeners.TestListener - Test Failed: testSuccessfulLogin
+2026-01-15 14:18:41.992 [main] ERROR listeners.TestListener - Test Failed: testSuccessfulLogin
+2026-01-15 14:18:41.994 [main] INFO  listeners.TestListener - Test Suite Finished: Login Tests
+2026-01-15 14:21:06.893 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:21:06.896 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:21:08.209 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:21:09.923 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:21:09.942 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:21:09.942 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:22:45.545 [main] INFO  listeners.TestListener - Test Suite Started: Login Tests
+2026-01-15 14:22:45.569 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:22:45.570 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:22:46.874 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:23:04.560 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:23:04.564 [main] INFO  listeners.TestListener - Test Started: testSuccessfulLogin
+2026-01-15 14:23:04.582 [main] INFO  tests.LoginTest - Starting successful login test
+2026-01-15 14:23:04.834 [main] INFO  pages.LoginPage - Entered text 'student' in element: [[ChromeDriver: chrome on windows (d29a7c8c0378775308ac78f14a6dc6ce)] -> id: username]
+2026-01-15 14:23:04.835 [main] INFO  pages.LoginPage - Entered username: student
+2026-01-15 14:23:04.990 [main] INFO  pages.LoginPage - Entered text 'Password123' in element: [[ChromeDriver: chrome on windows (d29a7c8c0378775308ac78f14a6dc6ce)] -> id: password]
+2026-01-15 14:23:04.991 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:23:17.285 [main] INFO  pages.LoginPage - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: submit'
+2026-01-15 14:23:17.285 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:23:17.285 [main] INFO  pages.LoginPage - Login attempt with username: student
+2026-01-15 14:23:17.288 [main] INFO  tests.LoginTest - Verifying successful login
+2026-01-15 14:23:37.539 [main] ERROR listeners.TestListener - Test Failed: testSuccessfulLogin
+2026-01-15 14:23:37.688 [main] INFO  utils.ScreenshotUtil - Screenshot captured: test-output/screenshots/testSuccessfulLogin_20260115_142337.png
+2026-01-15 14:23:37.697 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:23:37.697 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:23:37.840 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:23:37.840 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:23:38.460 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:23:43.841 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:23:43.842 [main] INFO  listeners.TestListener - Test Started: testLoginWithInvalidCredentials
+2026-01-15 14:23:43.845 [main] INFO  tests.LoginTest - Starting invalid login test
+2026-01-15 14:23:44.002 [main] INFO  pages.LoginPage - Entered text 'invalidUser' in element: [[ChromeDriver: chrome on windows (010b69a2eb77b4b0a50f793a48cb10b5)] -> id: username]
+2026-01-15 14:23:44.002 [main] INFO  pages.LoginPage - Entered username: invalidUser
+2026-01-15 14:23:44.139 [main] INFO  pages.LoginPage - Entered text 'invalidPassword' in element: [[ChromeDriver: chrome on windows (010b69a2eb77b4b0a50f793a48cb10b5)] -> id: password]
+2026-01-15 14:23:44.139 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:23:44.276 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (010b69a2eb77b4b0a50f793a48cb10b5)] -> id: submit]
+2026-01-15 14:23:44.277 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:23:44.277 [main] INFO  pages.LoginPage - Login attempt with username: invalidUser
+2026-01-15 14:23:44.277 [main] INFO  tests.LoginTest - Verifying error message
+2026-01-15 14:23:44.435 [main] INFO  tests.LoginTest - Invalid login test passed successfully
+2026-01-15 14:23:44.437 [main] INFO  listeners.TestListener - Test Passed: testLoginWithInvalidCredentials
+2026-01-15 14:23:44.441 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:23:44.442 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:23:44.584 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:23:44.584 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:23:45.205 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:23:47.454 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:23:47.455 [main] INFO  listeners.TestListener - Test Started: testLoginWithEmptyCredentials
+2026-01-15 14:23:47.456 [main] INFO  tests.LoginTest - Starting empty credentials test
+2026-01-15 14:23:47.577 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (959342388670bfeb0d8635f689efd916)] -> id: submit]
+2026-01-15 14:23:47.577 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:23:47.586 [main] INFO  tests.LoginTest - Empty credentials test passed successfully
+2026-01-15 14:23:47.587 [main] INFO  listeners.TestListener - Test Passed: testLoginWithEmptyCredentials
+2026-01-15 14:23:47.588 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:23:47.588 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:23:47.713 [main] INFO  listeners.TestListener - Test Suite Finished: Login Tests
+2026-01-15 14:26:49.085 [main] INFO  listeners.TestListener - Test Suite Started: Login Tests
+2026-01-15 14:26:49.109 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:26:49.110 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:26:50.364 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:26:55.974 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:26:55.977 [main] INFO  listeners.TestListener - Test Started: testSuccessfulLogin
+2026-01-15 14:26:55.991 [main] INFO  tests.LoginTest - Starting successful login test
+2026-01-15 14:26:56.242 [main] INFO  pages.LoginPage - Entered text 'student' in element: [[ChromeDriver: chrome on windows (02e2241d131b056966a0b21b6b165955)] -> id: username]
+2026-01-15 14:26:56.243 [main] INFO  pages.LoginPage - Entered username: student
+2026-01-15 14:26:56.394 [main] INFO  pages.LoginPage - Entered text 'Password123' in element: [[ChromeDriver: chrome on windows (02e2241d131b056966a0b21b6b165955)] -> id: password]
+2026-01-15 14:26:56.395 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:27:07.279 [main] INFO  pages.LoginPage - Clicked on element: Proxy element for: DefaultElementLocator 'By.id: submit'
+2026-01-15 14:27:07.280 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:27:07.281 [main] INFO  pages.LoginPage - Login attempt with username: student
+2026-01-15 14:27:07.286 [main] INFO  tests.LoginTest - Verifying successful login
+2026-01-15 14:27:07.489 [main] INFO  tests.LoginTest - Login test passed successfully
+2026-01-15 14:27:07.490 [main] INFO  listeners.TestListener - Test Passed: testSuccessfulLogin
+2026-01-15 14:27:07.491 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:27:07.492 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:27:07.667 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:27:07.667 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:27:08.287 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:27:12.893 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:27:12.894 [main] INFO  listeners.TestListener - Test Started: testLoginWithInvalidCredentials
+2026-01-15 14:27:12.895 [main] INFO  tests.LoginTest - Starting invalid login test
+2026-01-15 14:27:13.078 [main] INFO  pages.LoginPage - Entered text 'invalidUser' in element: [[ChromeDriver: chrome on windows (ea7388ae0e2be7b3cc93d43805516ea3)] -> id: username]
+2026-01-15 14:27:13.078 [main] INFO  pages.LoginPage - Entered username: invalidUser
+2026-01-15 14:27:13.208 [main] INFO  pages.LoginPage - Entered text 'invalidPassword' in element: [[ChromeDriver: chrome on windows (ea7388ae0e2be7b3cc93d43805516ea3)] -> id: password]
+2026-01-15 14:27:13.208 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:27:13.324 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (ea7388ae0e2be7b3cc93d43805516ea3)] -> id: submit]
+2026-01-15 14:27:13.324 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:27:13.325 [main] INFO  pages.LoginPage - Login attempt with username: invalidUser
+2026-01-15 14:27:13.326 [main] INFO  tests.LoginTest - Verifying error message
+2026-01-15 14:27:13.438 [main] INFO  tests.LoginTest - Invalid login test passed successfully
+2026-01-15 14:27:13.439 [main] INFO  listeners.TestListener - Test Passed: testLoginWithInvalidCredentials
+2026-01-15 14:27:13.440 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:27:13.441 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:27:13.562 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:27:13.563 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:27:14.211 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:27:19.419 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:27:19.420 [main] INFO  listeners.TestListener - Test Started: testLoginWithEmptyCredentials
+2026-01-15 14:27:19.421 [main] INFO  tests.LoginTest - Starting empty credentials test
+2026-01-15 14:27:19.576 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (92ef96c50956dd8efae3fef615a37122)] -> id: submit]
+2026-01-15 14:27:19.577 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:27:19.584 [main] INFO  tests.LoginTest - Empty credentials test passed successfully
+2026-01-15 14:27:19.584 [main] INFO  listeners.TestListener - Test Passed: testLoginWithEmptyCredentials
+2026-01-15 14:27:19.585 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:27:19.585 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:27:19.731 [main] INFO  listeners.TestListener - Test Suite Finished: Login Tests
+2026-01-15 14:29:07.122 [main] INFO  listeners.TestListener - Test Suite Started: Login Tests
+2026-01-15 14:29:07.147 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:29:07.148 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:29:08.449 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:29:12.501 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:29:12.504 [main] INFO  listeners.TestListener - Test Started: testSuccessfulLogin
+2026-01-15 14:29:12.520 [main] INFO  tests.LoginTest - Starting successful login test
+2026-01-15 14:29:12.743 [main] INFO  pages.LoginPage - Entered text 'student' in element: [[ChromeDriver: chrome on windows (f8a5038a0412b18f816dc62de3a2e3ef)] -> id: username]
+2026-01-15 14:29:12.743 [main] INFO  pages.LoginPage - Entered username: student
+2026-01-15 14:29:13.259 [main] INFO  pages.LoginPage - Entered text 'Password1234' in element: [[ChromeDriver: chrome on windows (f8a5038a0412b18f816dc62de3a2e3ef)] -> id: password]
+2026-01-15 14:29:13.260 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:29:13.546 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (f8a5038a0412b18f816dc62de3a2e3ef)] -> id: submit]
+2026-01-15 14:29:13.546 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:29:13.547 [main] INFO  pages.LoginPage - Login attempt with username: student
+2026-01-15 14:29:13.551 [main] INFO  tests.LoginTest - Verifying successful login
+2026-01-15 14:29:33.669 [main] ERROR listeners.TestListener - Test Failed: testSuccessfulLogin
+2026-01-15 14:29:33.848 [main] INFO  utils.ScreenshotUtil - Screenshot captured: test-output/screenshots/testSuccessfulLogin_20260115_142933.png
+2026-01-15 14:29:33.856 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:29:33.856 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:29:33.999 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:29:33.999 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:29:34.624 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:29:37.122 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:29:37.123 [main] INFO  listeners.TestListener - Test Started: testLoginWithInvalidCredentials
+2026-01-15 14:29:37.124 [main] INFO  tests.LoginTest - Starting invalid login test
+2026-01-15 14:29:41.738 [main] INFO  pages.LoginPage - Entered text 'invalidUser' in element: [[ChromeDriver: chrome on windows (a8aa416d9b733bc4de6d5d8a1379da39)] -> id: username]
+2026-01-15 14:29:41.739 [main] INFO  pages.LoginPage - Entered username: invalidUser
+2026-01-15 14:29:41.827 [main] INFO  pages.LoginPage - Entered text 'invalidPassword' in element: [[ChromeDriver: chrome on windows (a8aa416d9b733bc4de6d5d8a1379da39)] -> id: password]
+2026-01-15 14:29:41.827 [main] INFO  pages.LoginPage - Entered password
+2026-01-15 14:29:41.911 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (a8aa416d9b733bc4de6d5d8a1379da39)] -> id: submit]
+2026-01-15 14:29:41.911 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:29:41.911 [main] INFO  pages.LoginPage - Login attempt with username: invalidUser
+2026-01-15 14:29:41.911 [main] INFO  tests.LoginTest - Verifying error message
+2026-01-15 14:29:42.480 [main] INFO  tests.LoginTest - Invalid login test passed successfully
+2026-01-15 14:29:42.480 [main] INFO  listeners.TestListener - Test Passed: testLoginWithInvalidCredentials
+2026-01-15 14:29:42.481 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:29:42.481 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:29:42.593 [main] INFO  tests.LoginTest - Setting up test
+2026-01-15 14:29:42.593 [main] INFO  utils.DriverManager - Initializing chrome driver
+2026-01-15 14:29:43.166 [main] INFO  utils.DriverManager - Driver initialized successfully
+2026-01-15 14:29:47.441 [main] INFO  tests.LoginTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-01-15 14:29:47.442 [main] INFO  listeners.TestListener - Test Started: testLoginWithEmptyCredentials
+2026-01-15 14:29:47.443 [main] INFO  tests.LoginTest - Starting empty credentials test
+2026-01-15 14:29:47.573 [main] INFO  pages.LoginPage - Clicked on element: [[ChromeDriver: chrome on windows (b53cffc7e6f72e41adf0dd297a9c0a70)] -> id: submit]
+2026-01-15 14:29:47.574 [main] INFO  pages.LoginPage - Clicked submit button
+2026-01-15 14:29:47.582 [main] INFO  tests.LoginTest - Empty credentials test passed successfully
+2026-01-15 14:29:47.583 [main] INFO  listeners.TestListener - Test Passed: testLoginWithEmptyCredentials
+2026-01-15 14:29:47.588 [main] INFO  tests.LoginTest - Tearing down test
+2026-01-15 14:29:47.589 [main] INFO  utils.DriverManager - Quitting driver
+2026-01-15 14:29:47.736 [main] INFO  listeners.TestListener - Test Suite Finished: Login Tests
